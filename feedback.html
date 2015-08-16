@@ -1,0 +1,89 @@
+<!--Wenxin Deng
+	214342982
+	This is the page for customer to submit the feedback.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Include meta tag to ensure proper rendering and touch zooming -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Include jQuery Mobile stylesheets -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<!-- Include the jQuery library -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- Include the jQuery Mobile library -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+		<!-- Page: feedback  -->
+  <div id="feedback.html" data-role="page">
+  	 <div data-role="header" data-position="fixed">
+    <h3>Feedback</h3>
+  </div>
+  <div role="main" class="ui-content">
+  	<!-- link set  -->
+    <div data-role="navbar">
+        <ul>
+          <li>
+            <a href="home.html" rel="external" data-icon="home">Home</a>
+          </li>
+          <li>
+            <a href="menu.html" rel="external" data-icon="star">Menu</a>
+          </li>
+          <li>
+            <a href="call.html" rel="external" data-icon="star">Call</a>
+          </li>
+        </ul>
+      </div>
+      <div data-role="navbar">
+        <ul>
+           <li>
+            <a href="info.html" rel="external" data-icon="star">Info</a>
+          </li>
+          <li>
+            <a href="location.html" rel="external" data-icon="star">Location</a>
+          </li>
+          <li>
+            <a href="feedback.html" rel="external" data-icon="star">Feedback</a>
+          </li>
+        </ul>
+      </div> 
+      <!-- feedback input  -->
+    <div class="ui-field-contain">
+      <label for="gk-814d1zD">Customer Name:</label>
+      <textarea id="gk-814QW5r"></textarea>
+    </div>
+    <div class="ui-field-contain">
+      <label for="gk-814d1zD">Contact Information:</label>
+      <textarea id="gk-814QW5r"></textarea>
+    </div>
+    <div class="ui-field-contain">
+      <label for="gk-814d1zD">Feedback:</label>
+      <textarea id="gk-814QW5r"></textarea>
+    </div>
+  <div data-role="main" class="ui-content">
+    <a href="#myPopupDialog" data-rel="popup" data-position-to="window" data-transition="fade" class="ui-btn">Submit</a>
+
+    <div data-role="popup" id="myPopupDialog">
+      <div data-role="header">
+        <h1>Submit</h1>
+      </div>
+
+      <div data-role="main" class="ui-content">
+        <p>Submitted successfully.</p>
+        <a href="home.html" rel="external" class="ui-btn">Back</a>
+      </div>
+
+  </div>
+  <div data-position="fixed" data-role="footer"></div>
+  <div data-role="footer" data-position="fixed">
+    <h3>&copy;Den</h3>
+  </div>
+  </div>
+</body>
+</html>
